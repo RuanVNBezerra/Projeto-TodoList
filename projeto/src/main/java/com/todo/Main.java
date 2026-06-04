@@ -1,6 +1,9 @@
 package com.todo;
 
+import com.todo.Controller.TarefaController;
+import com.todo.Repository.TarefaRepository;
 import com.todo.Service.TarefaService;
+import com.todo.View.TarefaView;
 
 public class Main {
 
@@ -12,10 +15,7 @@ public class Main {
 
         TarefaView view = new TarefaView();
 
-        TarefaController controller = new TarefaController(
-                        service,
-                        view
-                );
+        TarefaController controller = new TarefaController(service,view);
 
         controller.iniciarSistema();
     }

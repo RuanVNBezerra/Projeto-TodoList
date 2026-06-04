@@ -1,5 +1,7 @@
 package com.todo.Controller;
 
+import com.todo.Models.Usuario;
+import com.todo.Service.TarefaService;
 import com.todo.View.TarefaView;
 
 public class TarefaController {

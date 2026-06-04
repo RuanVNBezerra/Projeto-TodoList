@@ -3,6 +3,9 @@ package com.todo.View;
 import java.util.List;
 import java.util.Scanner;
 
+import com.todo.Models.Tarefa;
+import com.todo.Models.Usuario;
+
 
 public class TarefaView {
 

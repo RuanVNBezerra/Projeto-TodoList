@@ -2,13 +2,16 @@ package com.todo.Service;
 
 import java.util.List;
 
+import com.todo.Models.Tarefa;
+import com.todo.Models.Usuario;
+import com.todo.Repository.TarefaRepository;
+
 
 public class TarefaService {
 
     private TarefaRepository repository;
 
-    public TarefaService(
-            TarefaRepository repository) {
+    public TarefaService(TarefaRepository repository) {
 
         this.repository = repository;
     }
